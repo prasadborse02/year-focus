@@ -25,172 +25,172 @@ export interface CalendarEvent {
 }
 
 export const events: CalendarEvent[] = [
-  {
-    id: "misogi-challenge",
-    title: "Misogi Challenge",
-    start: "2026-03-01",
-    end: "2026-06-30",
-    color: "0 72% 50%", // Red
-    details: `**100km Monthly Running Target**
+//   {
+//     id: "misogi-challenge",
+//     title: "Misogi Challenge",
+//     start: "2026-03-01",
+//     end: "2026-06-30",
+//     color: "0 72% 50%", // Red
+//     details: `**100km Monthly Running Target**
 
-- Complete 100km of running each month
-- Mix of trail runs, intervals, and long steady runs
-- Progressive distance increase week over week
+// - Complete 100km of running each month
+// - Mix of trail runs, intervals, and long steady runs
+// - Progressive distance increase week over week
 
-**Strength Training**
-- 3x per week full body sessions
-- Focus on compound movements
-- Olympic lifting progression
+// **Strength Training**
+// - 3x per week full body sessions
+// - Focus on compound movements
+// - Olympic lifting progression
 
-**Swimming**
-- 2x per week pool sessions
-- Work on stroke efficiency
-- Build to 2km continuous swim
+// **Swimming**
+// - 2x per week pool sessions
+// - Work on stroke efficiency
+// - Build to 2km continuous swim
 
-**Mental Resilience Focus**
-- Cold exposure protocol
-- Meditation practice
-- Weekly reflection journaling`
-  },
-  {
-    id: "ultra-prep",
-    title: "Ultra Marathon Prep",
-    start: "2026-07-01",
-    end: "2026-09-30",
-    color: "200 98% 39%", // Primary blue
-    details: `**Building the Engine**
+// **Mental Resilience Focus**
+// - Cold exposure protocol
+// - Meditation practice
+// - Weekly reflection journaling`
+//   },
+//   {
+//     id: "ultra-prep",
+//     title: "Ultra Marathon Prep",
+//     start: "2026-07-01",
+//     end: "2026-09-30",
+//     color: "200 98% 39%", // Primary blue
+//     details: `**Building the Engine**
 
-Peak training phase for the autumn ultra marathon.
+// Peak training phase for the autumn ultra marathon.
 
-- Weekly mileage: 80-120km
-- Back-to-back long runs on weekends
-- Nutrition strategy testing
-- Altitude training camps
+// - Weekly mileage: 80-120km
+// - Back-to-back long runs on weekends
+// - Nutrition strategy testing
+// - Altitude training camps
 
-**Key Sessions**
-- Tuesday: Speed work
-- Thursday: Tempo runs
-- Saturday: Long trail run
-- Sunday: Recovery run + strength`
-  },
-  {
-    id: "first-ultra",
-    title: "First 100km Ultra",
-    start: "2026-10-17",
-    end: "2026-10-17",
-    color: "45 93% 47%", // Gold
-    details: `**The Main Event**
+// **Key Sessions**
+// - Tuesday: Speed work
+// - Thursday: Tempo runs
+// - Saturday: Long trail run
+// - Sunday: Recovery run + strength`
+//   },
+//   {
+//     id: "first-ultra",
+//     title: "First 100km Ultra",
+//     start: "2026-10-17",
+//     end: "2026-10-17",
+//     color: "45 93% 47%", // Gold
+//     details: `**The Main Event**
 
-First 100km ultramarathon attempt.
+// First 100km ultramarathon attempt.
 
-- Location: Mountain trails
-- Elevation gain: 4,500m
-- Target time: Sub-20 hours
-- Crew and pacers arranged
+// - Location: Mountain trails
+// - Elevation gain: 4,500m
+// - Target time: Sub-20 hours
+// - Crew and pacers arranged
 
-*"The goal is not to finish fast, but to finish transformed."*`
-  },
-  {
-    id: "recovery-block",
-    title: "Active Recovery Block",
-    start: "2026-10-18",
-    end: "2026-11-15",
-    color: "160 60% 45%", // Teal
-    details: `**Post-Ultra Recovery**
+// *"The goal is not to finish fast, but to finish transformed."*`
+//   },
+//   {
+//     id: "recovery-block",
+//     title: "Active Recovery Block",
+//     start: "2026-10-18",
+//     end: "2026-11-15",
+//     color: "160 60% 45%", // Teal
+//     details: `**Post-Ultra Recovery**
 
-Structured recovery period to rebuild.
+// Structured recovery period to rebuild.
 
-- Week 1-2: Complete rest, walking only
-- Week 3-4: Easy swimming and yoga
-- Light strength work resumes
-- Focus on sleep and nutrition
+// - Week 1-2: Complete rest, walking only
+// - Week 3-4: Easy swimming and yoga
+// - Light strength work resumes
+// - Focus on sleep and nutrition
 
-**Recovery Protocols**
-- Massage therapy weekly
-- Compression and elevation
-- Anti-inflammatory nutrition`
-  },
-  {
-    id: "year-reflection",
-    title: "Year End Reflection",
-    start: "2026-12-20",
-    end: "2026-12-31",
-    color: "270 50% 50%", // Purple
-    details: `**Closing the Year**
+// **Recovery Protocols**
+// - Massage therapy weekly
+// - Compression and elevation
+// - Anti-inflammatory nutrition`
+//   },
+//   {
+//     id: "year-reflection",
+//     title: "Year End Reflection",
+//     start: "2026-12-20",
+//     end: "2026-12-31",
+//     color: "270 50% 50%", // Purple
+//     details: `**Closing the Year**
 
-Time for deep reflection and planning.
+// Time for deep reflection and planning.
 
-- Review all training logs
-- Analyze what worked, what didn't
-- Set intentions for 2027
-- Gratitude practice
+// - Review all training logs
+// - Analyze what worked, what didn't
+// - Set intentions for 2027
+// - Gratitude practice
 
-**Planning Sessions**
-- December 20-23: Review
-- December 24-26: Rest
-- December 27-31: 2027 planning`
-  },
-  {
-    id: "base-building",
-    title: "Base Building Phase",
-    start: "2026-01-05",
-    end: "2026-02-28",
-    color: "215 24% 40%", // Steel blue
-    details: `**Foundation Work**
+// **Planning Sessions**
+// - December 20-23: Review
+// - December 24-26: Rest
+// - December 27-31: 2027 planning`
+//   },
+//   {
+//     id: "base-building",
+//     title: "Base Building Phase",
+//     start: "2026-01-05",
+//     end: "2026-02-28",
+//     color: "215 24% 40%", // Steel blue
+//     details: `**Foundation Work**
 
-Building aerobic base and movement quality.
+// Building aerobic base and movement quality.
 
-- Zone 2 training emphasis
-- Running: 40-60km per week
-- Swimming: 4-6km per week
-- Strength: Movement patterns
+// - Zone 2 training emphasis
+// - Running: 40-60km per week
+// - Swimming: 4-6km per week
+// - Strength: Movement patterns
 
-**Weekly Structure**
-- Monday: Strength + swim
-- Tuesday: Easy run
-- Wednesday: Swim intervals
-- Thursday: Tempo run
-- Friday: Rest or yoga
-- Saturday: Long run
-- Sunday: Active recovery`
-  },
-  {
-    id: "new-year",
-    title: "New Year Commitment",
-    start: "2026-01-01",
-    end: "2026-01-01",
-    color: "200 98% 39%", // Primary
-    details: `**The Year Begins**
+// **Weekly Structure**
+// - Monday: Strength + swim
+// - Tuesday: Easy run
+// - Wednesday: Swim intervals
+// - Thursday: Tempo run
+// - Friday: Rest or yoga
+// - Saturday: Long run
+// - Sunday: Active recovery`
+//   },
+//   {
+//     id: "new-year",
+//     title: "New Year Commitment",
+//     start: "2026-01-01",
+//     end: "2026-01-01",
+//     color: "200 98% 39%", // Primary
+//     details: `**The Year Begins**
 
-Setting the foundation for the Year of the Hybrid Athlete.
+// Setting the foundation for the Year of the Hybrid Athlete.
 
-- Morning cold plunge
-- First training session
-- Vision board creation
-- Commitment ceremony
+// - Morning cold plunge
+// - First training session
+// - Vision board creation
+// - Commitment ceremony
 
-*"Every journey begins with a single step."*`
-  },
-  {
-    id: "swim-focus",
-    title: "Swim Focus Week",
-    start: "2026-02-09",
-    end: "2026-02-15",
-    color: "190 80% 45%", // Cyan
-    details: `**Intensive Swim Block**
+// *"Every journey begins with a single step."*`
+//   },
+//   {
+//     id: "swim-focus",
+//     title: "Swim Focus Week",
+//     start: "2026-02-09",
+//     end: "2026-02-15",
+//     color: "190 80% 45%", // Cyan
+//     details: `**Intensive Swim Block**
 
-Dedicated week to improve swimming technique.
+// Dedicated week to improve swimming technique.
 
-- Daily pool sessions
-- Video analysis
-- Stroke correction drills
-- Open water simulation
+// - Daily pool sessions
+// - Video analysis
+// - Stroke correction drills
+// - Open water simulation
 
-**Goals**
-- Reduce 100m time by 5 seconds
-- Improve breathing pattern
-- Build water confidence`
-  }
+// **Goals**
+// - Reduce 100m time by 5 seconds
+// - Improve breathing pattern
+// - Build water confidence`
+//   }
 ];
 
 /**

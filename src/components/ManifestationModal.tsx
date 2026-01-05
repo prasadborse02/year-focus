@@ -11,42 +11,42 @@ interface ManifestationModalProps {
  * =====================
  * Edit this Markdown content to update the manifestation page.
  */
-const MANIFESTATION_CONTENT = `# 2026 Manifestation
+const MANIFESTATION_CONTENT = `# 2026 Manifestation`;
 
-This is the year of the **Hybrid Athlete**.
+// This is the year of the **Hybrid Athlete**.
 
-## Core Principles
+// ## Core Principles
 
-- Train consistently
-- Respect recovery
-- Do hard things on purpose
+// - Train consistently
+// - Respect recovery
+// - Do hard things on purpose
 
-## The Vision
+// ## The Vision
 
-This year is about becoming someone who:
+// This year is about becoming someone who:
 
-- **Runs** — not away from, but toward challenge
-- **Swims** — through discomfort with grace
-- **Lifts** — themselves and others up
-- **Endures** — when everything says to stop
+// - **Runs** — not away from, but toward challenge
+// - **Swims** — through discomfort with grace
+// - **Lifts** — themselves and others up
+// - **Endures** — when everything says to stop
 
-## Monthly Mantras
+// ## Monthly Mantras
 
-**January–March**: *Build the foundation*
+// **January–March**: *Build the foundation*
 
-**April–June**: *Embrace the grind*
+// **April–June**: *Embrace the grind*
 
-**July–September**: *Peak and perform*
+// **July–September**: *Peak and perform*
 
-**October–December**: *Reflect and renew*
+// **October–December**: *Reflect and renew*
 
----
+// ---
 
-> "The body achieves what the mind believes."
+// > "The body achieves what the mind believes."
 
----
+// ---
 
-*This is not just a year. This is a transformation.*`;
+// *This is not just a year. This is a transformation.*`;
 
 /**
  * Simple Markdown parser
